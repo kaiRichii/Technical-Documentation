@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation</title>
+    <style type="text/css">
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: 0px;
+      }
+      a {
+        list-style-type: none;
+        font-size: 17px;
+        text-decoration: none;
+        color:crimson;
+      }
+      nav {
+        /* border: 1px solid red; */
+        margin: 20px 2px 0 10px;
+        font-family: sans-serif;
+      }
+      .links {
+        margin-top: 6px;
+      }
+      h2 {
+        margin-bottom: 20px;
+      }
+      h3 {
+        margin: 25px 0px 0px 8px;
+        font-family: "lucida Sans";
+        padding-left: 13px;
+        background-color: black;
+        color: white;
+      }
+      .content-descrip {
+        margin: 17px 5px 5px 2rem;
+        font-family: sans-serif;
+      }
+      .theList{
+        margin: 12px 5px 5px 50px;
+        font-family: monospace;
+        font-size: 15px;
+        font-style: italic;
+      }
+      .container-all{
+        display: grid;
+        grid-template-columns: 200px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-all">
+      <div>
+        <nav>
+          <h2>Technical Documentation</h2>
+          <div>
+            <ul>
+              <a href="#introduction">
+                <li class="links">Introduction</li>
+              </a>
+              <a href="#What_you_should_already_know">
+                <li class="links">What you should already know</li>
+              </a>
+              <a href="#About_the_topic">
+                <li class="links">About the topic</li>
+              </a>
+              <a href="#topic1">
+                <li class="links">Topic 1</li>
+              </a>
+              <a href="#topic2">
+                <li class="links">Topic 2</li>
+              </a>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div>
+        <main>
+          <h3 id="introduction">Introduction</h3>
+          <p class="content-descrip">
+            Some content about the main topic, for example Java documentation
+            introduction about the language. What you should already know.
+          </p>
+          <h3 id="What_you_should_already_know">What you should already know</h3>
+          <p class="content-descrip">
+            Background information before getting into the topic:
+            <ul class="theList">
+              <li>Some list content</li>
+              <li>Prerequisites.</li>
+              <li>Workings and assumptions</li>
+            </ul>
+            <p class="content-descrip">Any other content to be covered before learning this topic.</p>
+          </p>
+          <h3 id="About_the_topic">About Topic</h3>
+          <p class="content-descrip">More lines about the topic. For example, how the basic functionality works, features etc...</p>
+          <p class="content-descrip">Technical documentation should be thorough and to the point.</p>
+          <p class="content-descrip">Write about features, comparisons with other languages etc.</p>
+          <h3 id="topic1">Topic <span style="color:darksalmon">1</span></h3>
+          <p class="content-descrip">Getting started with the actual documentation content This would come in a different color and font indicating lines of code.</p>
+          <h3 id="topic2">Topic <span style="color:khaki">2</span></h3>
+          <p class="content-descrip">Another topic about the main topic, for example, if the topic is Java, this could be variables or data types in Java.</p>
+        </main>
+      </div>
+    </div>
+    <audio src="/FUJII KAZE - Shinunoga E-wa 「死ぬのがいいわ」Lyrics Video (Kan_Rom_Eng).mp3" autoplay muted></audio>
+  </body>
+</html>
